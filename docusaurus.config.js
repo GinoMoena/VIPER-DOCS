@@ -6,19 +6,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Viper Documemntation',
+  title: 'Viper Documentation',
   tagline: 'Game dev engine',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://viper-docs.github.io',
+  url: 'https://ginomoena.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Gino Moena', // Usually your GitHub org/user name.
+  organizationName: 'GinoMoena', // Usually your GitHub org/user name.
   projectName: 'VIPER-DOCS', // Usually your repo name.
   deploymentBranch: 'deployment',
 
