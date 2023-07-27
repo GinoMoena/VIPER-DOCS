@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[468],{8443:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/VIPER-DOCS/blog/tags/facebook","allTagsPath":"/VIPER-DOCS/blog/tags","count":1}')}}]);

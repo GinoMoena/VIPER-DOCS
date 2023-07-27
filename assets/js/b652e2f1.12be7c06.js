@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7104],{5622:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/VIPER-DOCS/blog/tags/hola","allTagsPath":"/VIPER-DOCS/blog/tags","count":1}')}}]);
