@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Viper Documemntation',
+  tagline: 'Game dev engine',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -20,7 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Gino Moena', // Usually your GitHub org/user name.
   projectName: 'VIPER-DOCS', // Usually your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'deployment',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
