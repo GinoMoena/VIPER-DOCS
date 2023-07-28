@@ -26,16 +26,14 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Using SSH:
+set USE_SSL=false
+set GIT_USER=GinoMoena
+set GIT_PASS=token de git
+set CURRENT_BRANCH=main
 
-```
-$ USE_SSH=true yarn deploy
-```
+Extra:
 
-Not using SSH:
+Se agrega barra de búsqueda, por lo que en caso de ser necesario, se tendrá que ejecutar el swizzle periodicamente.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
