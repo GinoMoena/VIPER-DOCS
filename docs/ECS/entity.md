@@ -57,7 +57,7 @@ Método para actualizar la entidad cuadro por cuadro. Es importante que al igual
 
 ##### Draw `abstract`
 
-Método para dibujar las texturas necesarias por la entidad. Si bien se recomienda delegar estas tareas de dibujos a un componente, igual se puede utilizar si la entidad necesita imprimir algo distinto.
+Método para dibujar las texturas necesarias por la entidad. Como los componentes no requieren necesariamente ser impresos, este método es útil para llamar algún método Draw creado en un componente para dibujar sobre la entidad.
 
 ##### DrawHD `abstract`
 
