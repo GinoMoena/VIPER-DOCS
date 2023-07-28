@@ -14,10 +14,10 @@ const config = {
   url: 'https://ginomoena.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/VIPER-DOCS/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // If you aren't using xxxxxx GitHub pages, you don't need these.
   organizationName: 'GinoMoena', // Usually your GitHub org/user name.
   projectName: 'VIPER-DOCS', // Usually your repo name.
   deploymentBranch: 'deployment',
@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Viper Engine',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -75,7 +75,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentación',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -92,7 +92,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentación',
                 to: '/docs/intro',
               },
             ],
