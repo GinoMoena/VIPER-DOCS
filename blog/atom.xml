@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ginomoena.github.io/VIPER-DOCS/blog</id>
-    <title>Viper Documentation Blog</title>
+    <title>VIPER DOCS Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ginomoena.github.io/VIPER-DOCS/blog"/>
-    <subtitle>Viper Documentation Blog</subtitle>
+    <subtitle>VIPER DOCS Blog</subtitle>
     <icon>https://ginomoena.github.io/VIPER-DOCS/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
