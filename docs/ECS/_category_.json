@@ -1,0 +1,9 @@
+{
+    "label": "Entity-Component System",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "El sistema de entidad-componente es un patrón de arquitectura de software. Aquí se implementa para poder distribuir los objetos en un escenario como entidades que consumen componentes."
+    }
+  }
+  

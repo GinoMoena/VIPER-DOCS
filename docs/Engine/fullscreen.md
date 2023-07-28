@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Fullscreen
 Este componente se encargará de la visualización en pantalla completa.
 
