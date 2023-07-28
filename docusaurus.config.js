@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   plugins: [require.resolve('docusaurus-lunr-search')],
-  title: 'Viper Documentation',
-  tagline: 'Game dev engine',
+  title: 'VIPER DOCS',
+  tagline: 'Documentación de motor de videojuegos VIPER',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -44,14 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/GinoMoena/VIPER-DOCS',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -80,7 +73,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/GinoMoena',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,16 +95,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/GinoMoena',
               },
             ],
           },
@@ -124,12 +109,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/GinoMoena',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} VIPER ENGINE, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
