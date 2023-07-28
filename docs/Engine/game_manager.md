@@ -83,3 +83,4 @@ Entrega una fuente de texto por defecto, esta se puede utilizar para mostrar tex
 
 ### Update(GameTime)
 
+Se maneja la lógica que debe actualizar cuadro a cuadro. Este método es ideal para agregar funciones globales que afectan a toda la aplicación, por ejemplo el control de pantalla completa o alternar entre modo debug y normal o modo hd/low res.

@@ -21,7 +21,7 @@ Este atributo es un atajo para ParentEntity.position, dado que se referencia en 
 
 Permite agregar un componente a la entidad padre. Si bien en este punto un componente no puede tener componentes hijos, este addComponent funciona como un shortcut a ParentEntity.AddComponent. Se utiliza para bajar la complejidad ciclomática.
 
-#### GetComponent`T` where T : Component
+#### GetComponent &lt;T&gt; where T : Component
 
 Al igual que el caso anterior, este es un atajo para ParentEntity.GetComponent(). Simplemente para bajar la complejidad ciclomática y simplificar el desarrollo.
 

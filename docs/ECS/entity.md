@@ -38,7 +38,7 @@ Dado que Scene es una clase abstracta se debe utilizar herencia. Los métodos ma
 Permite agregar un componente a la entidad. Es importante utilizar este método en lugar de agregarlo en la lista directamente, esto permitirá que la carga del componente sea la correcta y se pueda ejecutar el método Initialize sin problemas.
 
 
-#### GetComponent`T` where T : Component
+#### GetComponent &lt;T&gt; where T : Component
 
 Permite obtener un componente que ya ha sido agregado a la entidad. En caso de que no exista devolverá nulo. Es especialmente útil si durante un método update necesito hacer un check de algún componente.
 
@@ -51,15 +51,15 @@ Se puede utilizar para dibujar una cruz sobre la posición de la entidad actual.
 
 Método que inicializa la entidad. En este punto la entidad tiene acceso a la escena donde se ha agregado por lo que este método es útil si se necesita obtener información o interactuar con alguna propiedad de la escena.
 
-##### Update `virtual`
+#### Update `virtual`
 
 Método para actualizar la entidad cuadro por cuadro. Es importante que al igual que en otros casos este método se ejecute manteniendo la ejecución del método base. Esto para que el método base sea capaz de actualizar los componentes que pertenecen a esta entidad.
 
-##### Draw `abstract`
+#### Draw `abstract`
 
 Método para dibujar las texturas necesarias por la entidad. Como los componentes no requieren necesariamente ser impresos, este método es útil para llamar algún método Draw creado en un componente para dibujar sobre la entidad.
 
-##### DrawHD `abstract`
+#### DrawHD `abstract`
 
 Misma lógica anterior esta vez para dibujar en modo HD. Si `HD_MODE=true` este método se ejecutara en lugar de método Draw.
 
