@@ -24,5 +24,3 @@ Esta clase contiene las definiciones de una línea de un punto A(x, y) a un punt
 ## MapTile
 
 Esta clase contiene las definiciones para agregar un tile (unidad mínima en mapa, por lo general de 16x16), simplemente define su posición en un punto (x, y). Además contiene banderas útiles como `solid` que permite saber si este objeto puede utilizarse como una plataforma por la que subir por abajo.
-
-miDodeAa

@@ -31,9 +31,22 @@ set GIT_USER=GinoMoena
 set GIT_PASS=token de git
 set CURRENT_BRANCH=main
 
+#### Generar build de producción
+
+En caso de que el plugin de búsqueda este activo se debe ejecutar primero este comando
+`npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger`
+
+Luego se ejecuta el build de la aplicación
+
+`yarn build`
+
+#### Generar deployment
+
+yarn deploy
+
 Extra:
 
 Se agrega barra de búsqueda, por lo que en caso de ser necesario, se tendrá que ejecutar el swizzle periodicamente.
 
-npm run swizzle docusaurus-lunr-search SearchBar -- --eject --danger
+
 
