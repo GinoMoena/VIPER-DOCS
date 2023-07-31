@@ -6,6 +6,8 @@ CommandBuffer es un componente que almacena una serie de comandos en una cola de
 
 #### BufferSize
 
+Indica el tamaño del buffer de acciones, mientras mayor sea el tamaño más será el espacio de acciones a guardar. Por ejemplo si es el tamaño es de 60 acciones realizadas un segundo antes de lo posible se ejecutarán, lo que puede resultar en un comportamiento involuntario por lo que se recomienda que el tamaño del buffer sea entre 5 a 15 frames.
+
 ### Métodos
 
 #### Update()
